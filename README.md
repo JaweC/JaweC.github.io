@@ -1,2 +1,0 @@
-# JaweC.github.io
-Site
