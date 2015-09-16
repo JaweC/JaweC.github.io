@@ -1,4 +1,22 @@
-TRIAL AND ERROR
-
-
-UNDER CONSTRUCTION <3
+<html>
+<head>
+<title>VERY WELL</title>
+<link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body bgcolor="black">
+div.wrap {height:100%; overflow:hidden;}
+<div class=wrap>
+<div class="video-container">
+         <iframe id="video" src="https://www.youtube.com/embed/AkWqber3x8c?rel=0&start=39&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<script>
+window.addEventListener("keydown", function(e) {
+    // space, page up, page down and arrow keys:
+    if([32, 33, 34, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+    }
+}, false);
+</script>
+</body>
+</html>
