@@ -1,22 +1,41 @@
 <html>
 <head>
-<title>VERY WELL</title>
-<link rel="stylesheet" href="stylesheet.css" />
+<title>ddos</title>
+      <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+<style>
+
+#video-bg {
+    position: fixed;
+  top: 50%;
+  transform: translateY(-50%); right: 0; bottom: 0; left: 0;
+}
+#video-bg > video {
+    position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+</style>
+
 </head>
-<body bgcolor="black">
-div.wrap {height:100%; overflow:hidden;}
-<div class=wrap>
-<div class="video-container">
-         <iframe id="video" src="https://www.youtube.com/embed/AkWqber3x8c?rel=0&start=39&amp;controls=0&amp;showinfo=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+
+<body bgcolor="#000000">
+
+
+<div id="video-bg">
+<video autoplay="" loop="" id="bgvid" preload="auto" poster="loading.png">
+<source src="ddos.webm" type="video/webm">
+<source src="ddos.mp4" type="video/mp4">
+  </video>
 </div>
-</div>
-<script>
-window.addEventListener("keydown", function(e) {
-    // space, page up, page down and arrow keys:
-    if([32, 33, 34, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
-        e.preventDefault();
-    }
-}, false);
-</script>
+
+
 </body>
 </html>
