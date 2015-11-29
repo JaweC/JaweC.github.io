@@ -8,11 +8,45 @@
     <script type="text/javascript" src="scripts/scroller.js"></script>
     <link rel="stylesheet" type="text/css" href="scripts/style.css">
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+    <script>
+        ;(function(){
+  function id(v){ return document.getElementById(v); }
+  function loadbar() {
+    var ovrl = id("overlay"),
+        stat = id("progstat"),
+        img = document.images,
+        c = 0,
+        tot = img.length;
+    if(tot == 0) return doneLoading();
 
+    function imgLoaded(){
+      c += 1;
+      stat.innerHTML = "<img id=\"logo\" src=\"data/images/loader.gif\" > <br>Wait for it...";
+      if(c===tot) return doneLoading();
+    }
+    function doneLoading(){
+      ovrl.style.opacity = 0;
+      setTimeout(function(){ 
+        ovrl.style.display = "none";
+      }, 1200);
+    }
+    for(var i=0; i<tot; i++) {
+      var tImg     = new Image();
+      tImg.onload  = imgLoaded;
+      tImg.onerror = imgLoaded;
+      tImg.src     = img[i].src;
+    }    
+  }
+  document.addEventListener('DOMContentLoaded', loadbar, false);
+}());
+
+    </script>
 </head>
 
 <body>
-
+                    <div id="overlay">
+                        <div id="progstat"></div>
+                    </div>
     <div class="wrapper">
         <div class="main">
             <section class="page1">
@@ -26,6 +60,7 @@
                                 <br>
                                 <br>
                                 <div class="big"><b>J</b>awe's <b>A</b>rchive</div>
+
                                 <br>
                                 <img id="logo" src="data/images/logo.png" width="165" height="165">
                                 <br>
@@ -37,8 +72,10 @@
                                 <div class="small">
                                     Welcome!
                                     <br>
-                                    <br>On here you can find a whole lot of Terminator: The Sarah Connor Chronicles FanFiction stories I collected.
-                                    <br>I take no credit for the content you see on here, all rights belong to their respective owners, yada yada.
+                                    <br>On here you can find a whole lot of Terminator: The Sarah Connor Chronicles FanFiction
+                                    stories I collected.
+                                    <br>I take no credit for the content you see on here, all rights belong to their respective
+                                    owners, yada yada.
                                     <br>
                                     <br>
                                     <br>
@@ -169,7 +206,7 @@
 
                                     <div class="construction1"></div>
                                     <div class="footertext">
-                                       using OnePageScroller.js by Pete R.</div>
+                                        using OnePageScroller.js by Pete R.</div>
                                 </div>
                             </div>
                         </div>
