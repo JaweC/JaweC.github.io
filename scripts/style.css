@@ -1,0 +1,337 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat-Regular'), url(../data/other/montserrat.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body,
+html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.big {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 4px #000;
+    word-wrap: break-word;
+}
+.medium {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 0px 0px 4px #000;
+    text-align: center;
+    word-wrap: break-word;
+}
+.small {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 0px 0px 4px #000;
+    text-align: center;
+    word-wrap: break-word;
+}
+.scrollbutton {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 0px 0px 4px #000;
+    text-align: center;
+    word-wrap: break-word;
+}
+.construction1 {
+    background-repeat: repeat-x;
+    background-image: url("../data/images/construction.png");
+    width: auto;
+    height: 5px;
+    margin-bottom: 5px;
+}
+.construction2 {
+    background-repeat: repeat-x;
+    background-image: url("../data/images/construction.png");
+    width: auto;
+    height: 5px;
+    margin-top: 5px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+body,
+html {
+    margin: 0;
+    overflow: hidden;
+    -webkit-transition: opacity 400ms;
+    -moz-transition: opacity 400ms;
+    transition: opacity 400ms;
+}
+body,
+.onepage-wrapper,
+html {
+    display: block;
+    position: static;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.onepage-wrapper {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    padding: 0;
+}
+.onepage-wrapper .ops-section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.disabled-onepage-scroll,
+.disabled-onepage-scroll .wrapper {
+    overflow: auto;
+}
+.disabled-onepage-scroll .onepage-wrapper .ops-section {
+    position: relative !important;
+    top: auto !important;
+}
+.disabled-onepage-scroll .onepage-wrapper {
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    transform: none !important;
+    -ms-transform: none !important;
+    min-height: 100%;
+}
+.disabled-onepage-scroll .onepage-pagination {
+    display: none;
+}
+body.disabled-onepage-scroll,
+.disabled-onepage-scroll .onepage-wrapper,
+html {
+    position: inherit;
+}
+#logo {
+    -webkit-filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 1));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+.heart {
+    font-size: 100px;
+    color: #ff0000;
+    text-shadow: 0px 0px 2px #000;
+}
+.onepage-pagination {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    z-index: 5;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    visibility: hidden;
+}
+/* unvisited link */
+
+a:link {
+    -o-transition: color .2s ease-out, background 2s ease-in;
+    -ms-transition: color .2s ease-out, background 2s ease-in;
+    -moz-transition: color .2s ease-out, background 2s ease-in;
+    -webkit-transition: color .2s ease-out, background 2s ease-in;
+    transition: color .2s ease-out, background 2s ease-in;
+    font-size: 18px;
+    color: #000;
+}
+/* visited link */
+
+a:visited {
+    color: #000;
+}
+/* mouse over link */
+
+a:hover {}
+/* selected link */
+
+a:active {
+    color: #000;
+}
+.orange {
+    font-size: 17px;
+    color: darkorange;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.red {
+    font-size: 17px;
+    color: red;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.green {
+    font-size: 17px;
+    color: green;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#parent {
+    text-align: center;
+    overflow: hidden;
+}
+.child {
+    -o-transition: color .1s ease-out, background .1s ease-in;
+    -ms-transition: color .1s ease-out, background .1s ease-in;
+    -moz-transition: color .1s ease-out, background .1s ease-in;
+    -webkit-transition: color .1s ease-out, background .1s ease-in;
+    transition: color .1s ease-out, background .1s ease-in;
+    margin: 20px;
+    display: inline-block;
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.child:hover {
+    background-color: rgba(75, 55, 40, 0.2);
+    border: solid 1px;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+.page_container {
+    height: 100%;
+}
+.background {
+    height: 100%;
+    width: 110%;
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../data/images/wall.jpg");
+    background-size: cover;
+    filter: blur(7px) brightness(0.75);
+    -webkit-filter: blur(7px) brightness(0.75);
+    -moz-filter: blur(7px) brightness(0.75);
+    -ms-filter: blur(7px) brightness(0.75);
+    -o-filter: blur(7px) brightness(0.75);
+    position: absolute;
+    margin: -10px;
+}
+.background2 {
+    height: 100%;
+    width: 110%;
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../data/images/wall2.jpg");
+    background-size: cover;
+    filter: blur(7px) brightness(0.75);
+    -webkit-filter: blur(7px) brightness(0.75);
+    -moz-filter: blur(7px) brightness(0.75);
+    -ms-filter: blur(7px) brightness(0.75);
+    -o-filter: blur(7px) brightness(0.75);
+    position: absolute;
+    margin: 10px -10px -10px -10px;
+}
+.background3 {
+    height: 100%;
+    width: 110%;
+    text-align: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../data/images/wall3.jpg");
+    background-size: cover;
+    filter: blur(7px) brightness(0.75);
+    -webkit-filter: blur(7px) brightness(0.75);
+    -moz-filter: blur(7px) brightness(0.75);
+    -ms-filter: blur(7px) brightness(0.75);
+    -o-filter: blur(7px) brightness(0.75);
+    position: absolute;
+    margin: 10px -10px -10px -10px;
+}
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+.footertext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 0px 0px 4px #000;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+.verticalcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.jumppage {
+    -o-transition: color .1s ease-out, background .1s ease-in;
+    -ms-transition: color .1s ease-out, background .1s ease-in;
+    -moz-transition: color .1s ease-out, background .1s ease-in;
+    -webkit-transition: color .1s ease-out, background .1s ease-in;
+    transition: color .1s ease-out, background .1s ease-in;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 10, 10);
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    cursor: hand;
+}
+#footerlink {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: solid 1px;
+}
+#headerlink {
+    width: 100%;
+    border-bottom: solid 1px;
+}
+.jumppage:hover {
+    background-color: rgb(15, 15, 15);
+}
