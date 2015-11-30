@@ -39,6 +39,15 @@
   }
   document.addEventListener('DOMContentLoaded', loadbar, false);
 }());
+
+
+// Check for mobile user agent
+var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+if (mobile) {
+    alert("MOBILE DEVICE DETECTED");              
+} else {
+    alert("NO MOBILE DEVICE DETECTED");
+}  
     </script>
 </head>
 
