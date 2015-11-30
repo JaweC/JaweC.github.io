@@ -6,53 +6,10 @@
     <title>Jawe´s Archive</title>
 
     <script type="text/javascript" src="scripts/scroller.js"></script>
+        <script type="text/javascript" src="scripts/addition.js"></script>
+    <script type="text/javascript" src="scripts/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="scripts/style.css">
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
-    <script>
-        ;(function(){
-  function id(v){ return document.getElementById(v); }
-  function loadbar() {
-    var ovrl = id("overlay"),
-        stat = id("progstat"),
-        img = document.images,
-        c = 0,
-        tot = img.length;
-    if(tot == 0) return doneLoading();
-
-    function imgLoaded(){
-      c += 1;
-      stat.innerHTML = "<img id=\"logo\" src=\"data/images/loader.gif\" > <br>Wait for it...";
-      if(c===tot) return doneLoading();
-    }
-    function doneLoading(){
-      ovrl.style.opacity = 0;
-      setTimeout(function(){ 
-        ovrl.style.display = "none";
-      }, 1200);
-    }
-    for(var i=0; i<tot; i++) {
-      var tImg     = new Image();
-      tImg.onload  = imgLoaded;
-      tImg.onerror = imgLoaded;
-      tImg.src     = img[i].src;
-    }    
-  }
-  document.addEventListener('DOMContentLoaded', loadbar, false);
-}());
-
-
-// Check for mobile user agent
-var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
-if (mobile) {
-    if (confirm("By the looks of it you're on a mobile device. Do you want to view the mobile-friendly version? (Highly recommended)")) {
-          window.location.href = "http://jawe.pw/portable";
-} else {
-    
-}             
-} else {
-
-}  
-    </script>
 </head>
 
 <body>
@@ -64,6 +21,13 @@ if (mobile) {
             <section class="page1">
                 <div class="background"></div>
                 <div class="page_container">
+                    <a href="http://jawe.pw/portable">
+                        <div id="mobilebanner">
+
+                            <div class="medium">On mobile but didn't get a pop-up? Click here</div>
+                        </div>
+
+                    </a>
                     <div class="verticalcenter">
                         <div class="big"><b>J</b>awe's <b>A</b>rchive</div>
                         <br>
@@ -191,6 +155,7 @@ if (mobile) {
 
                         <div class="verticalcenter">
                             <div class="big">Made with</div>
+                            
                             <div class="heart">♥</div>
                         </div>
                     </div>
