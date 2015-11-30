@@ -44,9 +44,13 @@
 // Check for mobile user agent
 var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
 if (mobile) {
-    alert("MOBILE DEVICE DETECTED");              
+    if (confirm("By the looks of it you're on a mobile device. Do you want to view the mobile-friendly version? (Highly recommended)")) {
+          window.location.href = "http://jawe.pw/portable";
 } else {
-    alert("NO MOBILE DEVICE DETECTED");
+    
+}             
+} else {
+
 }  
     </script>
 </head>
