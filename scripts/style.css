@@ -229,10 +229,12 @@ a:active {
         -moz-transition: color .1s ease-out,background .1s ease-in;
         -webkit-transition: color .1s ease-out,background .1s ease-in;
         transition: color .1s ease-out,background .1s ease-in;
+                min-width: 200px;
+        max-width: 200px;
         margin: 20px;
         display: inline-block;
         border: solid 1px;
-        border-color: rgba(0,0,0,0.5);
+        border-color: rgba(35,35,35,0.5);
         padding: 8px;
         color: #fff;
         background-color: rgba(0,0,0,0.5);
