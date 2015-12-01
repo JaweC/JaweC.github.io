@@ -229,8 +229,10 @@ a:active {
         -moz-transition: color .1s ease-out,background .1s ease-in;
         -webkit-transition: color .1s ease-out,background .1s ease-in;
         transition: color .1s ease-out,background .1s ease-in;
-                min-width: 200px;
-        max-width: 200px;
+                min-width: 175px;
+        max-width: 175px;
+        min-height: 175px;
+        max-height: 175px;
         margin: 20px;
         display: inline-block;
         border: solid 1px;
