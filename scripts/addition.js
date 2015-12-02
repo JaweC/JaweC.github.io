@@ -37,10 +37,10 @@ if (mobile) {
     if (confirm("By the looks of it you're on a mobile device. Do you want to view the mobile-friendly version? (Highly recommended)")) {
           window.location.href = "http://jawe.pw/portable";
 } else {
-    
+    //Doe iets anders
 }             
 } else {
-
+//Idk wat dit doet maar hoort erbij lol
 }
 
 

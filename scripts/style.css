@@ -476,15 +476,42 @@ a:active {
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
+                -o-transition: border  .1s ease-out,background .1s ease-in;
+        -ms-transition: border  .1s ease-out,background .1s ease-in;
+        -moz-transition: border  .1s ease-out,background .1s ease-in;
+        -webkit-transition: border  .1s ease-out,background .1s ease-in;
+        transition: border  .1s ease-out,background .1s ease-in;
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
     border-color: transparent #fff transparent transparent;
 }
+
+.fp-controlArrow.fp-prev:hover {
+        
+    left: 15px;
+    width: 0;
+    border-width: 42.5px 38px 42.5px 0;
+    border-color: transparent #fff transparent transparent;
+}
+
+
 .fp-controlArrow.fp-next {
+                        -o-transition: border  .1s ease-out,background .1s ease-in;
+        -ms-transition: border  .1s ease-out,background .1s ease-in;
+        -moz-transition: border  .1s ease-out,background .1s ease-in;
+        -webkit-transition: border  .1s ease-out,background .1s ease-in;
+        transition: border  .1s ease-out,background .1s ease-in;
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
     border-color: transparent transparent transparent #fff;
 }
 
+
+.fp-controlArrow.fp-next:hover {
+
+    right: 15px;
+    border-width: 42.5px 0 42.5px 38px;
+    border-color: transparent transparent transparent #fff;
+}
 
