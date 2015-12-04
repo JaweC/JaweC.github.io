@@ -96,10 +96,10 @@ a:active {
 .child {
     font-size: 4px;
     font-size: 3.8vw;
-    min-width: 325px;
-    max-width: 325px;
-    min-height: 325px;
-    max-height: 325px;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 375px;;
+    max-height: 375px;
     margin: 20px;
     display: inline-block;
     padding: 8px;
