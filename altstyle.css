@@ -7,7 +7,7 @@ div.menu ul:after {
     border-radius: 2px !important;
     color: white !important;
     content: "v1.5.1" !important;
-    font-size: 12px !important;
+    font-size: 11px !important;
     font-weight: bold !important;
     line-height: 1 !important;
     margin-left: 10px !important;
@@ -86,7 +86,7 @@ div.menu ul:after {
     border-style: none !important;
     line-height: 20px !important;
     padding: 10px !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
     border-radius: 0 !important
 }
 
@@ -107,7 +107,7 @@ div.menu ul:after {
 .shadetabs li a.selected {
     border-style: none !important;
     color: #ffffff !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
     top: 0 !important;
 }
 
@@ -139,7 +139,7 @@ input.button, .button2, .button, a.bitButton, input.bitButton, span.bitButton {
     text-transform: uppercase !important;
     font-weight: bold !important;
     letter-spacing: 1px !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
     padding: 5px 10px !important;
     border-radius: 2px !important;
     -moz-border-radius: 2px !important;
@@ -235,7 +235,7 @@ div.float_left.smalltext {
 
 div.largetext {
     display: none !important;
-    font-size: 27px !important;
+    font-size: 26px !important;
     margin-left: 3px !important;
     margin-top: 55px !important;
     padding: 20px !important;
@@ -249,7 +249,7 @@ div.logo a img {
 div.menu ul {
     background: none !important;
     background-color: #282828 !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
     font-weight: normal !important;
     height: 0px !important;
     margin-top: 0 !important;
@@ -285,7 +285,7 @@ div.navigation a.active {
 div.pagination {
     font-weight: normal !important;
     margin-bottom: 20px !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
     padding-top: 25px !important;
     padding-left: 7px !important;
 }
@@ -294,7 +294,7 @@ div.navigation a {
 }
 
 div.pm_alert {
-    font-size: 13px !important;
+    font-size: 12px !important;
     background-color: #242424 !important;
     border: 1px solid rgba(114,74,158,.5) !important;
     border-radius: 0 !important;
@@ -304,7 +304,7 @@ div.pm_alert {
 }
 
 div.pm_alert2 {
-    font-size: 13px !important;
+    font-size: 12px !important;
     background-color: #242424 !important;
     border: 1px solid rgba(97,168,89,.5) !important;
     border-radius: 0 !important;
@@ -424,7 +424,7 @@ textarea {
     color: #ccc !important;
     border: 1px dotted #444 !important;
     padding: 4px !important;
-    font-size: 16px !important;
+    font-size: 15px !important;
     -webkit-box-sizing: border-box !important;
     -moz-box-sizing: border-box !important;
     box-sizing: border-box !important;
@@ -493,7 +493,7 @@ html body {
 }
 
 span.active {
-    font-size: 14px !important;
+    font-size: 13px !important;
     color: #FFFFFF !important;
 }
 
@@ -503,7 +503,7 @@ span.pages {
 }
 
 div.menu ul li a {
-    font-size: 14px !important;
+    font-size: 13px !important;
     text-shadow: none !important;
     font-weight: normal !important;
 }
@@ -637,7 +637,7 @@ td.trow_sep {
     background-color: #292929 !important;
     padding: 10px !important;
     font-weight: normal !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 
 div.navigation a {
@@ -648,7 +648,7 @@ td.thead div strong {
     display: inline-block !important;
     color: #ffffff !important;
     font-weight: normal !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 
 td.thead div {
@@ -665,7 +665,7 @@ span.button2 a:Hover {
 
 div.smalltext {
     line-height: 20px !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 
 td.trow2 {
@@ -675,19 +675,19 @@ td.trow2 {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     padding: 10px !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 
 span.smalltext a strong {
     font-weight: bold !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 
 td.trow1 {
     border-bottom: 1px solid #262626 !important;
     border-radius: 0px !important;
     padding: 10px !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 
 .group3 {
@@ -772,7 +772,7 @@ li[class="subscription_remove"] {
 td.thead strong {
     color: #ffffff !important;
     margin: 5px !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
 }
 
 td.tcat {
@@ -813,11 +813,11 @@ a:hover {
 }
 
 span.smalltext {
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 
 div.navigation{
-    font-size: 14px !important;
+    font-size: 13px !important;
     color: #cfcfcf !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
@@ -839,7 +839,7 @@ ul.shadetabs li a {
     border: none !important;
     border-style: none !important;
     box-shadow: none !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
     font-weight: normal !important;
     margin: 5px !important;
     color: #7a7a7a !important;
@@ -849,7 +849,7 @@ ul.shadetabs li a {
 a.selected {
     border-style: none !important;
     color: #ffffff !important;
-    font-size: 14px !important;
+    font-size: 13px !important;
     font-weight: normal !important;
     text-shadow: none !important;
     top: 0px !important;
@@ -865,11 +865,11 @@ ul.shadetabs {
 }
 
 a.usercp_nav_item {
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 
 div.float_right a {
-    font-size: 13px !important;
+    font-size: 12px !important;
 }
 
 a.popup_item {
@@ -1320,7 +1320,7 @@ div[style="margin-top: 6px; padding-right: 10px;"] {
     color: transparent !important;
     background: url('http://i.imgur.com/LKctNTL.png') no-repeat;
     text-decoration: none !important;
-    font-size: 20px !important;
+    font-size: 19px !important;
     width: 16px !important;
     height: 12px !important;
     padding-left: 0px !important;
@@ -1417,7 +1417,7 @@ td .star_rating {
 .star_rating_success, .success_message {
     color: #bae9ba !important;
     font-weight: bold !important;
-    font-size: 12px !important;
+    font-size: 11px !important;
     margin-bottom: 10px !important;
 }
 
@@ -1435,7 +1435,7 @@ td .star_rating {
     z-index: 1000 !important;
     text-align: center !important;
     vertical-align: middle !important;
-    font-size: 15px !important;
+    font-size: 14px !important;
     width: 150px !important;
     height: auto !important;
     padding: 5px !important;
@@ -1588,7 +1588,7 @@ td .star_rating {
 }
 
 .messageEditor .toolbar_dropdown, .messageEditor .toolbar_dropdown_image {
-    font-size: 13px;
+    font-size: 12px;
     display: block;
     float: left;
     position: relative;
@@ -1692,7 +1692,7 @@ td .star_rating {
     padding-left: 3px;
     border-bottom: 1px solid #aaa;
     color: #999;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: bold;
 }
 
