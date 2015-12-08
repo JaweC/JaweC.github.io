@@ -59,14 +59,14 @@ html {
 }
 .construction1 {
     background-repeat: repeat-x;
-    background-image: url(../data/images/construction.png);
+    background-image: url(../data/media/images/construction.png);
     width: auto;
     height: 5px;
     margin-bottom: 5px;
 }
 .construction2 {
     background-repeat: repeat-x;
-    background-image: url(../data/images/construction.png);
+    background-image: url(../data/media/images/construction.png);
     width: auto;
     height: 5px;
     margin-top: 5px;
@@ -222,7 +222,7 @@ a:active {
     height: 100%;
     width: 110%;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../data/images/wall.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../data/media/images/wall.jpg);
     background-size: cover;
     filter: blur(4px) brightness(0.85);
     -webkit-filter: blur(4px) brightness(0.85);
@@ -236,7 +236,7 @@ a:active {
     height: 100%;
     width: 110%;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../data/images/wall2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../data/media/images/wall2.jpg);
     background-size: cover;
     filter: blur(4px) brightness(0.85);
     -webkit-filter: blur(4px) brightness(0.85);
@@ -250,7 +250,7 @@ a:active {
     height: 100%;
     width: 110%;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../data/images/wall3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../data/media/images/wall3.jpg);
     background-size: cover;
     filter: blur(4px) brightness(0.85);
     -webkit-filter: blur(4px) brightness(0.85);

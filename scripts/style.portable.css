@@ -34,7 +34,7 @@
 }
 .construction1 {
     background-repeat: repeat-x;
-    background-image: url(../data/images/construction.png);
+    background-image: url(../data/media/images/construction.png);
     width: auto;
     height: 7px;
     margin-bottom: 10px;
@@ -128,15 +128,15 @@ a:active {
     background-color: white;
 }
 .page1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../data/images/wall.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../data/media/images/wall.jpg);
     background-size: cover;
 }
 .page2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../data/images/wall2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../data/media/images/wall2.jpg);
     background-size: cover;
 }
 .page3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../data/images/wall3.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../data/media/images/wall3.jpg);
     background-size: cover;
 }
 #mobilebanner {
