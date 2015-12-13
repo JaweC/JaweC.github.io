@@ -14,10 +14,11 @@ html {
 }
 
             #noise {
-                  background: url("../data/media/images/noise.gif");
+                
+                  background: url("../data/media/images/noise2.gif");
                   position: absolute;
                   display: block;
-                  z-index: -1;
+                  z-index: 1;
                   margin: auto;
                   top: 0;
                   left: 0;
@@ -25,46 +26,42 @@ html {
                   bottom: 0;
                   width: 100%;
                   height: 100%;
-                  opacity: 0.03;
-                  filter: alpha(opacity=3);
+                  opacity: 0.075;
+                  filter: alpha(opacity=5);
             }
             
             html {
-                  background-color: #111;
-    -webkit-filter: grayscale(100%);
-    -moz-filter: grayscale(100%);
-    filter: grayscale(100%);
+                  background-color: #000;
+    -webkit-filter: grayscale(70%);
+    -moz-filter: grayscale(70%);
+    filter: grayscale(70%);
             }
             
 
-            
-            html,
-            body {
-                  height: 100%;
-            }
-            
-            .wrapper {
-                  min-height: 100%;
-                  height: auto !important;
-                  height: 100%;
-                  margin: 0 auto -4em;
-            }
-            
-            .footer,
-            .push {
-                  height: 4em;
-            }
-            
-.nowplaying {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    color: #888;
-    text-shadow: 0 0 4px #000;
-    text-align: center;
-    word-wrap: break-word;
+
+#headerimg {
+        margin-top: 30px;
+    margin-bottom: 50px;
+                  width: 100%;
+                  max-width: 650px;
+                  max-height: 105px;
 }
             
-            #parent img {
+
+#nowplaying {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 0 0 1px #fff;
+    position:fixed;
+    bottom:0;
+    margin-bottom: 50px;
+width: 100%;
+}
+
+
+            
+            #bg img {
                   position: absolute;
                   display: block;
                   z-index: -1;
@@ -74,10 +71,12 @@ html {
                   right: 0;
                   bottom: 0;
                   width: 100%;
-                  max-width: 600px;
-                  max-height: 600px;
-                  border-radius: 2%;
-                  border-width: 1px;
-                  border-style: solid;
-                  border-color: white;
+                  max-width: 700px;
+                  max-height: 500px;
+                      filter: blur(3px) ;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px) ;
+    -o-filter: blur(3px);
+    overflow: hidden;
             }
