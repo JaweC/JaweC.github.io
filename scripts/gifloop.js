@@ -1,4 +1,4 @@
-var totalCount = 127;
+var totalCount = 126;
 function ChangeIt() {
   document.documentElement.style.overflow = 'hidden';  // firefox, chrome
   document.body.scroll = "no"; // ie only
@@ -9,6 +9,6 @@ function ChangeIt() {
   var num = Math.floor(Math.random() * totalCount) + 1;
   var delay = Math.floor(Math.random() * 2500) + 1500;
 
-  document.getElementById('bg').innerHTML = '<img src="data/media/images/summer/' + num + '.gif" />';
+  document.getElementById('bg').innerHTML = '<img src="data/media/images/summer/' + num + '.gif" /> ';
   setTimeout(arguments.callee, delay);
 }
