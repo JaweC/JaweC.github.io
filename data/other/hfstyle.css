@@ -218,7 +218,7 @@ img.expander {
     display: none !important;
 }
 
-div.post_body blockquote {
+blockquote {
     background-color: #404040 !important;
     border-color: #262626 !important;
     border-style: solid !important;
@@ -228,7 +228,7 @@ div.post_body blockquote {
     padding: 20px !important;
 }
 
-div.post_body blockquote cite {
+blockquote cite {
     border-color: #5f6d80 !important;
     border-style: solid !important;
     border-width: 0 !important;
