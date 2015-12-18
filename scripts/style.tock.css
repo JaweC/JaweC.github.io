@@ -16,43 +16,29 @@ html {
             #noise {
                 
                   background: url("../data/media/images/noise2.gif");
-                  position: absolute;
                   display: block;
-                  z-index: 1;
-                  margin: auto;
-                  top: 0;
-                  left: 0;
-                  right: 0;
-                  bottom: 0;
+                  position: absolute;
+                  z-index: 0;
                   width: 100%;
                   height: 100%;
-                  opacity: 0.075;
-                  filter: alpha(opacity=5);
+                  opacity: 0.1;
+                  filter: alpha(opacity=10);
             }
             
             html {
-                  background-color: rgb(3, 3 ,3);
-    -webkit-filter: grayscale(55%);
-    -moz-filter: grayscale(55%);
-    filter: grayscale(55%);
+                  background-color: #000;
+    -webkit-filter: grayscale(65%);
+    -moz-filter: grayscale(65%);
+    filter: grayscale(65%);
             }
             
 
 
-#headerimg {
-        margin-top: 30px;
-    margin-bottom: 50px;
-                  width: 100%;
-                  max-width: 650px;
-                  max-height: 105px;
-}
-            
-
-#nowplaying {
+#headerText {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 45px;
     color: #fff;
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #000;
     position:fixed;
     bottom:0;
     margin-bottom: 50px;
@@ -70,13 +56,23 @@ width: 100%;
                   left: 0;
                   right: 0;
                   bottom: 0;
-                  width: 100%;
-                  max-width: 700px;
-                  max-height: 500px;
-                      filter: blur(2px) ;
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -ms-filter: blur(2px) ;
-    -o-filter: blur(2px);
-    border-radius: 15%;
+                  width: 99%;
+                  height: 98%;
+                      filter: blur(3px) ;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -ms-filter: blur(3px) ;
+    -o-filter: blur(3px);
             }
+            
+            #nowPlaying {
+                margin-top: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+                  display: block;
+                  position: absolute;
+                  z-index: 1;
+                  width: 100%;
+}

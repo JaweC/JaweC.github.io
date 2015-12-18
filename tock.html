@@ -5,29 +5,51 @@
       <title>You can call me "Tock"</title>
       <link rel="stylesheet" type="text/css" href="scripts/style.tock.css">
       <script type="text/javascript" src="scripts/gifloop.js"></script>
+<script type="text/javascript">
+var textarray = [
+ "Just keep walking preacher man",
+ "They took my crayons away but they're too late!",
+ "Jayne is a girl's name",
+  "Bible's broken. Contradictions, false logics. Doesn't make sense",
+ "It's hot in here. Must be Summer",
+ "I swallowed a bug",
+  "Same where, different when",
+ "You should write a note if you can't cry",
+ "That's a window, bird",
+ "He said very little. And then he was quiet",
+ "The future's past. I already miss it"    // No comma after last entry
+];
 
+function RndText() {
+  var rannum= Math.floor(Math.random()*textarray.length);
+  document.getElementById('headerText').innerHTML=textarray[rannum];
+}
+onload = function() { RndText(); }
+
+</script>
 </head>
 
 <body>
       <center>
+            
             <div id="noise">
 
             </div>
 
-            <img id="headerimg" src="data/media/images/other/sequestered/header.png">
-            <div id="nowplaying">&#9658; Cognitif - Yeah Yeah Yeah</div>
+
+            <div id="nowplaying">&#9658; L'Orange - My Magic Is The Best Magic</div>
 
 
             <div id="bg"></div>
-
+             <div id="headerText"></div>
 
 
 
 
 
             <audio id="music" autoplay="true" loop="true" hidden="true" preload="auto">
-                  <source src="data/media/audio/3.mp3" type="audio/mpeg">
-                  <source src="data/media/audio/3.ogg" type="audio/ogg">
+                  <source src="data/media/audio/4.mp3" type="audio/mpeg">
+                  <source src="data/media/audio/4.ogg" type="audio/ogg">
                         Damn, your computer doesn't support this audio element!
             </audio>
 
