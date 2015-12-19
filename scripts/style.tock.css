@@ -56,14 +56,31 @@ width: 100%;
                   left: 0;
                   right: 0;
                   bottom: 0;
-                  width: 99%;
-                  height: 98%;
-                      filter: blur(3px) ;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -ms-filter: blur(3px) ;
-    -o-filter: blur(3px);
+    width: auto;
+    height: 100%;
+                      filter: blur(1px) ;
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px) ;
+    -o-filter: blur(1px);
+    
             }
+            
+            #bg2 {
+                      position: absolute;
+                  display: block;
+                  z-index: -1;
+                  margin: auto;
+                  top: 0;
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+
+    box-shadow: inset 0px 0px 26px 28px #000000;
+-webkit-box-shadow: inset 0px 0px 26px 28px #000000;
+-moz-box-shadow: inset 0px 0px 26px 28px #000000;
+-o-box-shadow: inset 0px 0px 26px 28px #000000;
+}
             
             #nowPlaying {
                 margin-top: 35px;
