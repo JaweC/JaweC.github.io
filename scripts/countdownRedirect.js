@@ -7,7 +7,7 @@ function startCountDown(i, p, f) {
   var countDownObj = document.getElementById("countDown");
 
   countDownObj.count = function (i) {
-    countDownObj.innerHTML = "This domain was abandoned. Redirecting in " + i + " . . . <br>If you need to visit the old site, go to <a href='http://jawe.pw/main'>the main site</a>.";
+    countDownObj.innerHTML = "This domain was abandoned. Redirecting in " + i + " . . . <br><br>If you want to visit the old site, go to http://jawe.pw/main";
     if (i == 1) {
       window.location.href = "http://notcammy.me/";
       return;
